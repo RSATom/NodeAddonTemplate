@@ -1,0 +1,21 @@
+{
+  "name": "sip-addon",
+  "version": "0.1.0",
+  "license": "MIT",
+  "cmake-js": {
+    "runtime": "electron",
+    "runtimeVersion": "2.0.1",
+    "arch": "x64"
+  },
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "cmake-js": "*"
+  },
+  "scripts": {
+    "install": "cmake-js compile"
+  },
+  "devDependencies": {
+    "node-addon-api": "*",
+    "node-addon-api-helpers": "*"
+  }
+}
